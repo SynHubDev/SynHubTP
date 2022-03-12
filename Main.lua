@@ -4,7 +4,7 @@
 
 
 
-local keys, network = loadstring(game:HttpGet("https://raw.githubusercontent.com/Introvert1337/RobloxReleases/main/Scripts/Jailbreak/KeyFetcher.lua"))();
+local keys, network = loadstring(game:HttpGet("https://raw.githubusercontent.com/SynHubDev/SynHubTP/main/KeyFetcher"))();
 
 local replicated_storage = game:GetService("ReplicatedStorage");
 local run_service = game:GetService("RunService");

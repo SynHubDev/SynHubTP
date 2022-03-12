@@ -4,7 +4,7 @@
 
 
 
-local keys, network = loadstring(game:HttpGet("https://raw.githubusercontent.com/SynHubDev/SynHubTP/main/KeyFetcher"))();
+local keys, network = loadstring(game:HttpGet("https://raw.githubusercontent.com/SynHubDev/SynHubTP/main/KeyFetcher.lua"))();
 
 local replicated_storage = game:GetService("ReplicatedStorage");
 local run_service = game:GetService("RunService");
